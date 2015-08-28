@@ -1,0 +1,10 @@
+1 inch -> 96 pixels (dpi)
+1 inch -> 2.54 cm
+=> 2.54 cm -> 96 pixels
+=> 1 cm -> 37.8 pixles
+
+resizefactor = ( puzzle_height(cm) * 37.8 ) / puzzle_height(pixels)
+
+unicorn = 0.47
+micki = 0.48
+heli = 0.576

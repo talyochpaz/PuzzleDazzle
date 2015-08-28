@@ -1,0 +1,11 @@
+how to run shift_map
+
+
+run the command in create_mask function
+create_mask('image');
+right click - > copy position
+Bw=creatMask
+demo_shift_inpaint
+
+im2bw
+imfill

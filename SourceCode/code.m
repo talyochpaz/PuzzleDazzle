@@ -1,0 +1,13 @@
+B=imread('img/1.jpg');
+C=imread('img/2.jpg');
+A =  B-C;
+figure,imshow(A);
+title('Original image');
+r = A(:, :, 1);
+g = A(:, :, 2);
+b = A(:, :, 3);
+justGreen = g - r/2 - b/2;
+figure,imshow(A);
+title('ONLY GREEN');
+bw = justGreen > 50;
+imshow(bw);
